@@ -5,3 +5,4 @@ cd ..
 
 cp -r .config ${HOME}
 cp .git-completion.bash ${HOME}
+cp .bashrc ${HOME}
