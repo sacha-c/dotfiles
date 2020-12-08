@@ -26,6 +26,7 @@ install git
 install htop
 install wget
 install docker
+install net-tools
 
 # Image processing
 install gimp
