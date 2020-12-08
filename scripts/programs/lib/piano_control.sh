@@ -7,6 +7,7 @@ if  [ $1 = "start" ]; then
 
     su sacha -c "DISPLAY=:0 nohup qjackctl -a /usr/local/lib/Impactgx61.xml -s &"
     su sacha -c "DISPLAY=:0 nohup qsynth -m alsa_seq -a jack &"
+#    pacmd set-default-sink jack_out
 
 elif [ $1 = "stop" ]; then
     echo "$(date) stopping piano" >> $LOG

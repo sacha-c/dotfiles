@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 alias python="python3"
+alias pip="pip3"
+alias djangman="python3 manage.py"
+alias activate="source env/bin/activate"
